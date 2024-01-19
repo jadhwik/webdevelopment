@@ -2,63 +2,79 @@
 <html>
     <head>
         <title>
-            SIMPLE CALCULATOR
-        
+            Recepie page
         </title>
-        <link rel="stylesheet" href="style.css">
-        <body background="calc.gif">
-            
-            
-            <div class="container">
-            <div class="calculator">
-                <form>
-                    <div class="display">
-                    
-                <input type="text" name="display" >
-                </div>
-                <div class="buttons">
-                    <div>
-                        <input type="button" value="AC" onclick="display.value =''" class="show"/>
-                        <input type="button" value="DEL" onclick="display.value = display.value.toString().slice(0,-1)" class="show"/>
-                        <input type="button" value="/" onclick="display.value +='/'" class="show"/>
-                        <input type="button" value="%" onclick="display.value +='%'" class="show"/>
-
-                    </div>
-                    <div>
-                        <input type="button" value="7" onclick="display.value +='7'"/>
-                        <input type="button" value="8" onclick="display.value +='8'"/>
-                        <input type="button" value="9" onclick="display.value +='9'"/>
-                        <input type="button" value="*" onclick="display.value +='*'" class="operator"/>
-                        
-                    </div>
-                    <div>
-                        <input type="button" value="4" onclick="display.value +='4'"/>
-                        <input type="button" value="5" onclick="display.value +='5'"/>
-                        <input type="button" value="6" onclick="display.value +='6'"/>
-                        <input type="button" value="-" onclick="display.value +='-'" class="operator"/>
-                        
-                    </div>
-
-                    <div>
-                        <input type="button" value="1" onclick="display.value +='1'"/>
-                        <input type="button" value="2" onclick="display.value +='2'"/>
-                        <input type="button" value="3" onclick="display.value +='3'"/>
-                        <input type="button" value="+" onclick="display.value +='+'" class="operator"/>
-                        
-                    </div>
-                    <div>
-                        <input type="button" value="0" onclick="display.value +='0'" class="zero"/>
-                        <input type="button" value="." onclick="display.value +='.'"/>
-                        <input type="button" value="=" onclick="display.value= eval(display.value)" class="operator"/>
-                        
-                        
-                        
-                    </div>
-                    </div>
-
-                </div>
-                </form>
-            </div>
-        </body>
+        <link rel="stylesheet" href="recepie_page.css" >
     </head>
+    <body>
+        <div class="container">
+            <img src="image-omelette.jpeg">
+        
+        
+            <h2> Simple Omelette Recepie</h2>
+
+            <p>
+                An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+                to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+            </p>
+            <div class="preparation">
+            <ul>
+                <h>Preparation time</h>
+                <li> <b>Total</b>: Approximately 10 minutes</li>
+                <li><b>Preparataion</b>: 5 minutes</li>
+                <li><b>Cooking</b> : 5minutes</li>
+
+            </ul>
+            </div>
+            <h3> Ingredients</h3>
+            <ul>
+            <li>2-3 large eggs</li>
+            <li>Saly,to taste</li>
+            <li>Pepper , to taste</li>
+            <li>1 tablespoon of butter or oil</li>
+            <li>Optimal fillings:cheese,diced vegetables,cooked meats,herbs</li>            
+            </ul>
+            <hr>
+            <h3> Instructions</h3>
+            <ol> 
+                <li><b>Beat the eggs</b>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+                    You can add a tablespoon of water or milk for a fluffier texture.</li>
+                <li> <b>Heat the pan</b>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+                <li><b>Cook the omelette</b>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+                    the eggs evenly coat the surface.</li>
+                <li><b>Add fillings (optional)</b>: When the eggs begin to set at the edges but are still slightly runny in the 
+                    middle, sprinkle your chosen fillings over one half of the omelette.</li>
+                <li><b>Fold and serve</b>: As the omelette continues to cook, carefully lift one edge and fold it over the 
+                    fillings. Let it cook for another minute, then slide it onto a plate.
+                  </li>
+                  <li><b>Enjoy</b>: Serve hot, with additional salt and pepper if needed.</li>
+                </ol>
+                  <h3>Nutrition</h3>
+                  <ul>
+                 
+                  <p>The table below shows nutritional values per serving without the additional fillings.</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Calories</td>
+                            <td><p1><b> 277kcal</b></p1></td>
+                        </tr>
+                        <tr>
+                            <td>Carbs</td>
+                            <td><p1><b>0g</b></p1></td>
+                        </tr>
+                        <tr>
+                            <td>Protein</td>
+                            <td><p1><b>20g</b></p1></td>
+                        </tr>
+                        <tr>
+                            <td>Fat</td>
+                            <td><p1></p><b>22g</b></p1></td>
+                        </tr>
+                    </tbody>
+                </table>
+                  </ul>
+                  </div>
+
+    </body>
 </html>
